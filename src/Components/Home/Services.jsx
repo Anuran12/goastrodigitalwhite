@@ -114,7 +114,7 @@ export default function Services() {
 
   return (
     <>
-      <section className="bg-[#000210] pt-0 py-6 sm:py-12 md:pb-6 md:pt-0" id='services'>
+      <section className="bg-[#EEF5F9] pt-0 py-6 sm:py-12 md:pb-6 md:pt-0" id='services'>
         <div className={`${styles.maxWidth} py-12`}>
           <div className="">
             <h1 className={styles.sectionHeadText}>Services</h1>

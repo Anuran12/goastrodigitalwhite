@@ -60,10 +60,10 @@ const AboutUs = memo(() => {
 
 
   return (
-    <section className="md:py-4 work-sans" id="about-us">
+    <section className="md:py-4 work-sans bg-white" id="about-us">
       <div className={`${styles.maxWidth} mt-16 mb-8 md:my-16 px-6`}>
         <div className="pb-8 md:pb-12">
-          <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start`}>About Astro</h1>
+          <h1 className={`${styles.sectionHeadText} flex md:justify-start justify-center items-start text-[#00B6EF]`}>About Astro</h1>
         </div>
 
         <div className="flex items-start justify-start gap-x-4 md:flex-row flex-col 2xl:h-[450px] h-auto">
@@ -83,7 +83,7 @@ const AboutUs = memo(() => {
                 {/* Card Content */}
                 <div
                   className={`md:px-8 px-6 mb-8 cursor-pointer
-                    ${activeIndex === index ? "bg-[#13191F]" : "bg-[#13191fc1]"}
+                    bg-black
                    transition-all duration-200 ease-linear py-5`}
                   onClick={() => ToggleCard(index)}
                 >

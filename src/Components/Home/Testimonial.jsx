@@ -17,19 +17,19 @@ function Testimonial() {
 
   return (
     <>
-      <section className='work-sans relative' id='reviews'>
+      <section className='work-sans relative bg-white' id='reviews'>
         <div className={`w-full max-w-[1340px] overflow-hidden m-auto relative`}>
           <div>
-            <h1 className={`${styles.sectionHeadText} px-8 sm:px-4`}>
+            <h1 className={`${styles.sectionHeadText} px-8 sm:px-4 text-[#00B6EF]`}>
               Client Experiences
             </h1>
-            <p className={`${styles.sectionSubText} text-center pt-4 px-6`}>
+            <p className={`${styles.sectionSubText} text-center pt-4 px-6 text-black`}>
               Our work speaks for itself through our client successes.
             </p>
           </div>
 
           <div className='mt-10 md:mt-16 testimonial w-full lg:-ml-12 px-1'>
-            <div className='bg-[#000210] w-[3.2rem] absolute h-full -left-6 z-10 lg:block hidden'></div>
+            <div className='bg-white w-[3.2rem] absolute h-full -left-5 z-10 lg:block hidden'></div>
             <Swiper
               effect={'coverflow'}
               centeredSlides={true}

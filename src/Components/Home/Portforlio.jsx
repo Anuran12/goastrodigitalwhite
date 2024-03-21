@@ -57,13 +57,13 @@ export default function Portfolio() {
 
   return (
     <>
-      <section className="work-sans" id='portfolio'>
+      <section className="work-sans bg-white" id='portfolio'>
         <div className={`${styles.maxWidth} w-full pt-4 md:pt-16 md:pb-28 pb-10 text-left work-sans relative`}>
           <div className={`mb-8 md:mb-16 px-6 lg:px-0 relative`}>
-            <h1 className={`${styles.sectionHeadText} pb-6 lg:px-0 px-6 flex items-center justify-center 2xl:justify-start 2xl:items-start`}>
+            <h1 className={`${styles.sectionHeadText} pb-6 lg:px-0 px-6 flex items-center justify-center 2xl:justify-start 2xl:items-start text-[#00B6EF]`}>
               Explore Our Portfolio
             </h1>
-            <p className={`${styles.sectionSubText} w-full capitalize text-center 2xl:text-left`}>
+            <p className={`${styles.sectionSubText} w-full capitalize text-center 2xl:text-left text-black`}>
               View the outcomes of our approach and attention to detail.
             </p>
           </div>

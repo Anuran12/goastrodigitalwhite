@@ -6,12 +6,12 @@ const styles = {
     maxWidth: "max-w-[1200px] m-auto w-full",
 
     heroHeadText:
-        "font-bold text-white lg:text-[74px] md:text-[64px] sm:text-[50px] text-[38px] lg:leading-[92px] md:leading-[89px] sm:leading-[72px] leading-[54px] mt-2",
+        "font-bold lg:text-[74px] md:text-[64px] sm:text-[50px] text-[38px] lg:leading-[92px] md:leading-[89px] sm:leading-[72px] leading-[54px] mt-2",
     heroSubText:
         "text-[#fff] font-medium lg:text-[20px] text-lg lg:leading-[30px]",
 
     sectionHeadText:
-        "work-sans text-3xl md:text-5xl capitalize font-bold text-center text-white",
+        "work-sans text-3xl md:text-5xl capitalize font-bold text-center",
     sectionSubText:
         "md:text-lg text-base md:text-medium text-normal",
 };
