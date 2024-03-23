@@ -74,13 +74,13 @@ function Testimonial() {
                     <div
                       className="card bg-gradient-to-b w-auto sm:w-[440px] lg:w-[550px] rounded-xl from-[#00FFFF] to-[#000210] p-[1px] lg:mx-0 mx-6 transition-all duration-200 ease-out h-full"
                     >
-                      <div className='bg-[#0A0C19] rounded-xl py-8 px-8 h-full'>
+                      <div className='bg-white rounded-xl py-8 px-8 h-full shadow-[rgba(0,0,0,0.45)_0px_25px_20px_-20px]'>
                         <div className='flex md:justify-between md:items-center md:flex-row flex-col items-start md:gap-y-0 gap-y-6'>
                           <div className='flex items-center justify-start gap-x-4'>
                             <img src={data.img} alt="Profile Image" className='w-14' />
                             <div>
                               <h1 className='text-lg font-bold'>{data.name}</h1>
-                              <p className='text-base font-normal text-[#979797]'>{data.occupation}</p>
+                              <p className='text-base font-normal text-[#5d5d5d]'>{data.occupation}</p>
                             </div>
                           </div>
                           <div className='flex items-center gap-x-1'>
@@ -92,7 +92,7 @@ function Testimonial() {
                           </div>
                         </div>
                         <div>
-                          <p className='text-base md:text-lg font-normal py-4'>
+                          <p className='text-base md:text-lg font-normal py-4 text-black'>
                             {data.review}
                           </p>
                         </div>

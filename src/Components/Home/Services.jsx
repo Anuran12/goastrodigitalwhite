@@ -129,7 +129,7 @@ export default function Services() {
                 key={index}
                 className="cursor-pointer card bg-gradient-to-b mt-4 w-[100%] sm:w-[360px] rounded-xl from-[#B3CDF8] to-[#000210] p-[1px] hover:bg-gradient-to-b hover:from-[#00FFFF] hover:to-[#000210] card-hover lg:mx-0 mx-8 transition-all duration-200 ease-out"
               >
-                <div className="bg-[#000210] rounded-xl sm:py-0 py-6 px-5 h-full sm:h-[300px] flex flex-col items-center justify-center text-center"
+                <div className="bg-white rounded-xl sm:py-0 py-6 px-5 h-full sm:h-[300px] flex flex-col items-center justify-center text-center"
                   onMouseEnter={() => MouseEnter(index)}
                   onMouseLeave={() => MouseLeave(index)}
                 >
@@ -142,7 +142,7 @@ export default function Services() {
                     <h1 className="work-sans text-xl font-semibold">
                       {cards.head}
                     </h1>
-                    <p className="text-base md:text-lg text-[#BABABA] font-normal w-full">
+                    <p className="text-base md:text-lg text-[#898989] font-normal w-full">
                       {cards.para}
                     </p>
                   </div>

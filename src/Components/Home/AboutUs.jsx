@@ -83,7 +83,7 @@ const AboutUs = memo(() => {
                 {/* Card Content */}
                 <div
                   className={`md:px-8 px-6 mb-8 cursor-pointer
-                    bg-black
+                    bg-white shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px]
                    transition-all duration-200 ease-linear py-5`}
                   onClick={() => ToggleCard(index)}
                 >
@@ -91,7 +91,7 @@ const AboutUs = memo(() => {
                     <h1
                       className={`${activeIndex === index
                         ? `${cardData.HeadColor}`
-                        : "text-[#4E4E4E]"
+                        : "text-[#2f2f2f]"
                         } transition-all capitalize duration-200 ease-out text-xl md:text-2xl font-bold delay-150`}
                     >{cardData.Tab}</h1>
                   </div>
@@ -102,7 +102,7 @@ const AboutUs = memo(() => {
                       } w-full grid transition-[grid-template-rows] delay-75 duration-[350ms] ease-out`}
                   >
                     <div className={`${activeIndex === index ? "opacity-100" : "opacity-0"} opacity-0 transition-opacity delay-100 ease-linear duration-200 overflow-hidden`}>
-                      <p className="md:text-lg text-base pb-3 pt-4 font-normal">{cardData.content}</p>
+                      <p className="md:text-lg text-base pb-3 pt-4 font-normal text-black">{cardData.content}</p>
                     </div>
                   </div>
                 </div>
