@@ -11,6 +11,7 @@ export default function Hero() {
 
         <>
             <section className='lg:h-[650px] w-full work-sans relative bg-white' id='home'>
+            <div class="container__glow2"></div>
             <div className='min-h-screen overflow-hidden relative'>
         <div class="container__glow2"></div>
         <div className='hero flex flex-row h-[100vh] w-full mt-10'>

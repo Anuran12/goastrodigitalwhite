@@ -376,3 +376,20 @@ body {
       transform: rotate(-360deg);
     }
   }
+
+  .container__glow2 {
+    content: "";
+    position: absolute;
+    top: -20%;
+    right: -65%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.2;
+    filter: blur(150px);
+  }
+  .container__glow2 {
+    background-color: #00D4FF;
+    z-index: 1;
+    /* transform: translate(60%, 60%); */
+  }
