@@ -15,7 +15,7 @@ const AboutCard = [
         Tab: "Excellence is Our Standard",
         content: "We don't settle for 'good enough.' Our services are engineered for impact to propel you towards your goals. We go above and beyond to bring each project to life and deliver world-class results for our clients.",
         loadingBarColor: "linear-gradient(to right, #13191F , #b6ba06 )",
-        HeadColor: "text-[#b6ba06]",
+        HeadColor: "text-[#bec202]",
     }
 ]
 
