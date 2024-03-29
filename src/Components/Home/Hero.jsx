@@ -37,7 +37,7 @@ export default function Hero() {
             </div>
             <div className='right h-full w-[40%] relative overflow-hidden -top-10 pt-6'>
 
-                <ul className='orbit-wrap z-10 absolute w-[29em] aspect-square rounded-full border-solid border-2 border-[#3FBAFF] -right-48 p-8'>
+                <ul className='orbit-wrap z-10 absolute w-[29em] h-[29em] aspect-square rounded-full border-solid border-2 border-[#3FBAFF] -right-48 p-8'>
                     <li>
                     <ul class="ring-0">
                         <li><i class="orbit-icon"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">

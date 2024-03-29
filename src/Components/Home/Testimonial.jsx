@@ -79,7 +79,7 @@ function Testimonial() {
                           <div className='flex items-center justify-start gap-x-4'>
                             <img src={data.img} alt="Profile Image" className='w-14' />
                             <div>
-                              <h1 className='text-lg font-bold'>{data.name}</h1>
+                              <h1 className='text-lg font-bold text-black'>{data.name}</h1>
                               <p className='text-base font-normal text-[#5d5d5d]'>{data.occupation}</p>
                             </div>
                           </div>

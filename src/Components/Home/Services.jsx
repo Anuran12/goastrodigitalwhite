@@ -139,7 +139,7 @@ export default function Services() {
                     {cards.animatedSvg}
                   </div>
                   <div className="pt-3 flex flex-col gap-y-3">
-                    <h1 className="work-sans text-xl font-semibold">
+                    <h1 className="work-sans text-xl font-semibold text-black">
                       {cards.head}
                     </h1>
                     <p className="text-base md:text-lg text-[#898989] font-normal w-full">
