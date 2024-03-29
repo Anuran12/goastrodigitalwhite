@@ -130,8 +130,8 @@ export default function Portfolio() {
               ))}
             </Swiper>
             <div className="flex items-center justify-center gap-x-8 2xl:pt-0 pt-6 2xl:absolute -top-24 z-20 right-0">
-              <Icon icon="gravity-ui:arrow-up" className="your-prev-button-class rotate-[270deg] text-3xl cursor-pointer text-[#BABABA] hover:text-white transition-all" onClick={handlePrevClick} />
-              <Icon icon="gravity-ui:arrow-up" className="your-next-button-class rotate-[90deg] text-3xl cursor-pointer text-[#BABABA] hover:text-white transition-all" onClick={handleNextClick} />
+              <Icon icon="gravity-ui:arrow-up" className="your-prev-button-class rotate-[270deg] text-3xl cursor-pointer text-[#BABABA] hover:text-black transition-all" onClick={handlePrevClick} />
+              <Icon icon="gravity-ui:arrow-up" className="your-next-button-class rotate-[90deg] text-3xl cursor-pointer text-[#BABABA] hover:text-black transition-all" onClick={handleNextClick} />
             </div>
           </div>
         </div>

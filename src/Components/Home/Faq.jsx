@@ -41,7 +41,7 @@ export default function Faq() {
                   } w-full grid transition-[grid-template-rows] duration-300 ease-out`}
               >
                 <div className={`${activeIndex === index ? "opacity-100" : "opacity-0"} opacity-0 transition-opacity delay-0 ease-linear duration-200 overflow-hidden`}>
-                  <p className="pt-4 pb-2 pr-8 text-base md:text-lg font-normal text-[#BABABA]">
+                  <p className="pt-4 pb-2 pr-8 text-base md:text-lg font-normal text-[#7e7e7e]">
                     {faq.answer}
                   </p>
                 </div>
