@@ -2,6 +2,7 @@
 
 // Main Site Logo Import
 import NewLogo from "./astro-logo.svg";
+import NewLogoBlack from "./astro-logo-black.svg";
 
 // Logos Import
 import KaganLogo from "./logo-slider/kagan-logo.svg"
@@ -40,6 +41,7 @@ export {
 
     // Main Site Logo Export
     NewLogo,
+    NewLogoBlack,
 
     // Logo Export
     KaganLogo,

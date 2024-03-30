@@ -1,6 +1,6 @@
 import React from 'react'
 import { styles } from '../../styles'
-import NewLogo from '../../assets/astro-logo.svg'
+import NewLogoBlack from '../../assets/astro-logo-black.svg'
 
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
@@ -22,7 +22,7 @@ export default function footer() {
                   className='hover:text-[#00B6EF] cursor-pointer transition-all duration-150 ease-linear flex md:block items-center justify-center pb-4 md:pb-0'
                 >
                   <img
-                    src={NewLogo}
+                    src={NewLogoBlack}
                     className="cursor-pointer md:w-38 w-[9rem]"
                     alt="Astro Logo"
                   />
