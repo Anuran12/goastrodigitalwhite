@@ -26,3 +26,34 @@ const AboutCard = [
 ];
 
 export { AboutCard };
+
+export const WorkCard = [
+  {
+    id: 1,
+    name: "Website and Logo Design",
+    occupation: `W.R. Berkley & Associates`,
+    review:
+      "Build a stunning brand along with responsive, user-friendly websites that captivate and convert.",
+  },
+  {
+    id: 2,
+    name: "Website and Logo Design",
+    occupation: `Founder of PureBeautyMedSpa`,
+    review:
+      "Build a stunning brand along with responsive, user-friendly websites that captivate and convert.",
+  },
+  {
+    id: 3,
+    name: "Website and Logo Design",
+    occupation: `Entrepreneur`,
+    review:
+      "Build a stunning brand along with responsive, user-friendly websites that captivate and convert.",
+  },
+  {
+    id: 4,
+    name: "Website and Logo Design",
+    occupation: `W.R. Berkley & Associates`,
+    review:
+      "Build a stunning brand along with responsive, user-friendly websites that captivate and convert.",
+  },
+];
